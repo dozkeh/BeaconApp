@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Tour</string>
+    <string name="textSchulleitung"> Alexandra Hubenthal, Schulleitung:</string>
+    <string name="textSchulleitungStatement">"Zwei Aspekte sind für unsere Schülerinnen und Schüler entscheidend: ein fundiertes Grundverständnis neuer Technologien und die Bereitschaft zur Weiterentwicklung."</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="textKompetenzen">Unsere Aufgabe:\nDie Komptenzen der Zukunft bei unseren Schülern entwickeln</string>
+    <string name="textHerausforderung">Ausbildungsberufe verändern sich schnell und auf vielfältige Art und Weise. Auch IT-ferne Berufe erfordern mittlerweile ein Grundverständnis für die Digitalisierung. Deshalb müssen Schülerinnen und Schüler bereits heute fachliche Inhalte erlernen, die ihre Arbeit in der Zukunft maßgeblich beeinflussen werden. Und mehr noch als die fachlichen Inhalte, die den jeweiligen Beruf prägen, müssen sie Kompetenzen entwickeln, die sie auf lebenslanges Lernen und die stetigen Veränderungen der Berufsbilder und Arbeitsumfelder vorbereiten.</string>
+    <string name="textUebersicht">Begleiten Sie uns zu unseren Unterrichtsbeispielen.</string>
+    <string name="textHolzspiel">Begleiten Sie uns zu unseren Unterrichtsbeispielen.</string>
+</resources>

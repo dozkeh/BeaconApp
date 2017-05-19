@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/activity_einstieg"
+    android:orientation="vertical"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:paddingBottom="@dimen/activity_vertical_margin"
+android:paddingLeft="@dimen/activity_horizontal_margin"
+android:paddingRight="@dimen/activity_horizontal_margin"
+android:paddingTop="@dimen/activity_vertical_margin"
+tools:context="com.example.rominakehl.bildung_4_0.Einstieg_1"
+    android:weightSum="1">
+
+    <ViewSwitcher
+        android:layout_width="match_parent"
+        android:layout_height="837dp"
+        android:layout_marginTop="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/switcher">>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="1134dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="601dp"
+                app:srcCompat="@drawable/owl_titel"
+                android:id="@+id/imageOWL"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:text="TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtSchulleitung"
+                tools:text="@string/textSchulleitung"
+                android:textSize="28sp"
+                android:textAlignment="center"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:text="@string/textSchulleitungStatement"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtSchulleitungStatement"
+                android:textSize="28sp"
+                android:textAlignment="center"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="24dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="441dp"
+                    app:srcCompat="@drawable/herausforderung"
+                    android:id="@+id/imageHerausforderung"
+                    android:layout_gravity="center"/>
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="15dp" />
+
+                <TextView
+                    android:text="TextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtHerausforderung"
+                    tools:text="@string/textHerausforderung"
+                    android:textSize="28sp"
+                    android:textAlignment="center"
+                    android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+
+
+            </LinearLayout>
+
+    </ViewSwitcher>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="79dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="71dp">
+
+            <Button
+                android:text="zurück"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnPrev"
+                android:layout_weight="0.93"
+                android:textSize="28sp" />
+
+            <Space
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <Button
+                android:text="weiter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnNext"
+                android:layout_weight="1"
+                android:textSize="28sp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
