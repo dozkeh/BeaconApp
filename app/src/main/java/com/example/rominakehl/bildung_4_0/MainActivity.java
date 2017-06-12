@@ -90,7 +90,7 @@ public class MainActivity extends AppCompatActivity {
 
                             if(places.equals("Beacon5")) {
                                 if(actualActivity != "forthStop") {
-                                    Intent intent4 = new Intent(activity, PickByLight.class);
+                                    Intent intent4 = new Intent(activity, HomeActivity.class);
                                     Log.i("Test", "Hallo4");
                                     actualActivity = "forthStop";
                                     startActivity(intent4);

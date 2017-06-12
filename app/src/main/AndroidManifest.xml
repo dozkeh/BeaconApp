@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.rominakehl.bildung_4_0">
+<uses-permission android:name="android.permission.INTERNET"></uses-permission>
 
     <application
         android:allowBackup="true"
@@ -19,7 +20,8 @@
         <activity android:name=".WiButler" />
         <activity android:name=".PickByLight" />
         <activity android:name=".Einstieg_1" />
-        <activity android:name=".Einstieg_2"></activity>
+        <activity android:name=".Einstieg_2" />
+        <activity android:name=".HomeActivity"></activity>
     </application>
 
 </manifest>

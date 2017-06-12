@@ -83,5 +83,8 @@ public class PickByLight extends Activity {
                 toast.show();
             }
         }
+
+
+
     }
 }
